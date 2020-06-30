@@ -7,7 +7,9 @@
 //* El codigo permite verificar el funcionamiento de
 //* El codigo permite verificar el funcionamiento de
 // la codificacion en binario y en forma de texto
-// 
+//
+// PREGUNTAS
+//
 // Ejecuta el programa, ¿qué puedes decir sobre las dos codificaciones?
 // El metodo de codificacion varia dependiendo del elemento a enviar, y al momento 
 // de reenviarlo en el servior igual se realiza una modificacion para poder enviarlo
@@ -15,9 +17,13 @@
 // diferentes tipos de mensajes.
 // Modifica el programa para enviar dos elementos y recibir dos elementos.
 // Conclusiones:
-//*
+// * Se puede concluir que mediante la biblioteca codificador se puede enviar datos
+//   codificados en este caso por TCP, mediante el uso de flujos. Como es un servidor ECO
+//   necesitamos realizar el proceso inverso en el cliente
 // Recomendaciones:
-//*
+// * Compilar el proyecto antes de agrega las librerias, para que se cree el dll y lo 
+//   podamos agregar
+//*  Utilizar las bibliotecas de (.NET Framework) dado que existe una gran variedad. 
 // ************************************************************************
 using System;
 using System.Collections.Generic;
